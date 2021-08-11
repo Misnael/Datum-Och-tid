@@ -17,9 +17,9 @@ timeElement.innerHTML =
     pad(date.getSeconds(), 2) ;
 
 dateElement.innerHTML =
-    pad(date.getFullYear(), 2)  + ":" +
+    pad(date.getDate(), 2)  + ":" +
     pad(date.getMonth(), 2)  + ":" +
-    pad(date.getDate(), 2) ;
+    pad(date.getFullYear(), 2) ;
 }
 function pad(num, size) {
     num = num.toString();
